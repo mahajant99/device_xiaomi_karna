@@ -124,12 +124,12 @@ void vendor_load_properties() {
     for (const auto &source : ro_props_default_source_order) {
         set_ro_build_prop(source, "fingerprint", fp);
         set_ro_product_prop(source, "brand", "POCO");
-        set_ro_product_prop(source, "device", "surya");
-        set_ro_product_prop(source, "model", "M2007J20CG");
+        set_ro_product_prop(source, "device", "karna");
+        set_ro_product_prop(source, "model", "M2007J20CI");
     }
     property_override("ro.build.fingerprint", fp);
     property_override("ro.bootimage.build.fingerprint", fp);
-    property_override("ro.build.description", "surya_global-user 10 QKQ1.200512.002 V12.0.3.0.QJGMIXM release-keys");
+    property_override("ro.build.description", "karna_in-user 10 QKQ1.200512.002 V12.0.5.0.QJGINXM release-keys");
 
     // Workaround SafetyNet
     workaround_snet_properties();
