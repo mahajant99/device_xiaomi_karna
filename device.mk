@@ -86,15 +86,7 @@ PRODUCT_COPY_FILES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.xiaomi_surya
-
-# NFC
-PRODUCT_PACKAGES += \
-    com.android.nfc_extras \
-    com.gsma.services.nfc \
-    NfcNci \
-    SecureElement \
-    Tag
+    android.hardware.light@2.0-service.xiaomi_karna
 
 # Notch style overlay
 PRODUCT_PACKAGES += \
@@ -120,7 +112,7 @@ PRODUCT_COPY_FILES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service.surya
+    android.hardware.power@1.2-service.karna
 
 # Product init
 PRODUCT_COPY_FILES += \
